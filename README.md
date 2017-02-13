@@ -1,1 +1,1 @@
-# insight_search_connect
+# This is Yan Jiang's project on SEEi
