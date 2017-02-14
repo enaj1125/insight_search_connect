@@ -1,0 +1,27 @@
+{
+
+ "name": "userX",
+ "children": [
+  {
+   "name": "follower1",
+   "children": [
+    
+    {
+     "name": "tweets1" 
+    },
+
+    {
+     "name": "tweets2",
+     "children": [
+      {"name": "RT @EvinesES: Here comes the Big Bang\ud83d\udc4d #Ilovesickdrops ILoveSickDrops\u2122 #paintblast #licbigbang #lifeincolor https://t.co/98hYC2GrSb"},
+      {"name": "ShortestPaths"},
+      {"name": "SpanningTree"}
+      ]
+    }
+
+
+    ]
+  }
+]
+
+}
