@@ -11,7 +11,7 @@ from datetime import datetime
 
 
 # Setting up ES and Redis
-es_host = ['ip-172-31-1-11']
+es_host = ['ip-of-ES-cluster']
 es = Elasticsearch(
                         es_host,
                         port=9200,
