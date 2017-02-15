@@ -21,6 +21,7 @@ Social Network
 
 ## Data Source
 Twitter data is stored on S3 (2015-05 to 2015-08). 
+
 Size: 1.4 TB
 
 ## Data Pipeline
