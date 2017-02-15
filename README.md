@@ -7,7 +7,7 @@ This is a tool that help you to search tweets faster, be more engaged with frien
 
 Weblink: http://www.seei.site/
 
-#3 What you can do with SEEi
+## What you can do with SEEi
 Search any one that you want to stalk, by:
 User ID
 Keyword
