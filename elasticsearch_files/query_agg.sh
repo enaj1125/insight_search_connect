@@ -1,4 +1,4 @@
-# this query search for user id using term method
+# this query search for user id using aggregation
 
 curl -u elastic -XGET 'localhost:9200/twitter_friend_data_2_8_4month/_search?pretty' -H 'Content-Type: application/json' -d'
 {
