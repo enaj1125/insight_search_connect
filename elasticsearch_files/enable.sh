@@ -1,4 +1,4 @@
-# this query search for a certain type of file
+# this will enable fielddata to be true and prepare for aggregation
 
 curl -u -elastic -XPUT 'localhost:9200/twitter_friend_data_2_8/_mapping/input_type?pretty' -H 'Content-Type: application/json' -d'
 {
