@@ -3,7 +3,9 @@ Developed by: Yan Jiang
 Date: Feb, 2017
 
 
-This is a tool that help you to search tweets faster, be more engaged with friend, and explore the reach impact. Specifically, the search tool support four features, search by User ID, Keyword, Time Window, Social Network
+SEEi is a search tool that give you the power to search messages on social media, and become more engaged with your interested topics or people. Specifically, it allow you to search any topic, within a time range, and for specific users, with that you can become more engaged with that topic, or the people who talk about it. Another cool feature is, you can not only see how you or someone talk about a topic, but also explore what is your impact. 
+
+This tool is built on twitter data, but can easily be applied to other social-media message system as well.
 
 Web tool link: http://www.seei.site/
 
