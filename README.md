@@ -9,6 +9,8 @@ Web tool link: http://www.seei.site/
 
 Data pipeline presentation: http://www.seei.site/ppt
 
+Youtube demo show: https://youtu.be/voGMpNQXu30
+
 
 ## What you can do with SEEi
 Search any one that you want to stalk, by:
