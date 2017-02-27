@@ -33,10 +33,10 @@ Twitter data is stored on S3 (2015-05 to 2015-08).
 
 Data Size: 1.4 TB
 
-![input-data](Github/input_data.png)
+![input-data](Github/inputdata.png)
 
 ## Data Pipeline
 Twitter data is stored and read from S3. Spark filtered the data and implemented a map-reduce job by a 4 node cluster. Spark cluster writes to an elasticsearch cluster which is set up on 4 node cluster. 
 
 The front end is served with a flask app (single node cluster) which interacts with elasticsearch clusters.
-![flowchart](Github/flowchart.png)
+![flowchart](Github/pipline.png)
