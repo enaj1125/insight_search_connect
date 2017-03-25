@@ -75,9 +75,9 @@ def send_func(item):
 
 # Input files
 textfiles1 = sc.textFile("s3n://timo-twitter-data/2015/*/*/*/*.json")
-result = textfiles.flatMap(map_func).reduceByKey(lambda a, b: a if a<= b else b)
 
-
+# Use flatMap (instead of Map function) to do the map job, because the output RDD size could be different with that of input.
+result = textfiles.flatMap(map_func).reduceByKey(lambda a, b: a if a<= b else b) 
 
 # write to ES
 result.foreach(send_func)
