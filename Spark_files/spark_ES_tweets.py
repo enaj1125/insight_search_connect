@@ -55,7 +55,7 @@ def map_func(line):
     # if data quality check pass, write data into Elasticsearch
     if user_exisit and time_exisit and text_exisit:
         doc = {'usr_id': usr_id, 'ttext': t_text, 'ttimes': t_time}
-        es.index(index= ES_INDEX, doc_type='inputs', body=doc)
+        # es.index(index= ES_INDEX, doc_type='inputs', body=doc)
         
         return [('key', doc)]
     else:
